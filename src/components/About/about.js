@@ -9,7 +9,7 @@ import {
   StyledInfoContainer,
   StyledTitle,
 } from "./aboutStyled";
-import { Container } from "../styles";
+import { Container } from "../Styles";
 
 const About = () => {
   return (

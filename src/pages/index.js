@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About/about";
 import Header from "../components/Header/header";
 import Home from "../components/Home/home";
-import Project from "../components/project/project";
+import Project from "../components/Project/project";
 import Skills from "../components/Skills/skills";
 
 const PorfolioPage = () => {

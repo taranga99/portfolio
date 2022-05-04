@@ -10,7 +10,7 @@ import {
   StyledSkillsContainer,
   StyledTitle,
 } from "./skillsStyled";
-import { Container } from "../styles";
+import { Container } from "../Styles";
 
 const Skills = () => {
   return (

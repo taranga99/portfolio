@@ -12,7 +12,7 @@ import {
   StyledWebContainer,
   DownloadIcon,
 } from "./navStyled";
-import { Container } from "../styles";
+import { Container } from "../Styles";
 
 const Nav = ({ setIsOpen, topColor }) => {
   return (

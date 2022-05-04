@@ -5,15 +5,21 @@ import {
   StyledProjectContainer,
   StyledTitle,
 } from "./projectStyled";
-import { Container } from "../styles";
+import { Container } from "../Styles";
+import { data } from "../Data";
+import ProjectCard from "../ProjectCard/projectCard";
 
 const Project = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id="projects">
       <Container>
         <StyledProject>
           <StyledTitle>My Projects</StyledTitle>
-          <StyledProjectContainer></StyledProjectContainer>
+          <StyledProjectContainer>
+            {data.map((item) => (
+              <ProjectCard item={item} key={item.id} />
+            ))}
+          </StyledProjectContainer>
         </StyledProject>
       </Container>
     </StyledContainer>

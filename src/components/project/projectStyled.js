@@ -1,13 +1,22 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  height: 600px;
+  height: 1200px;
   width: 100%;
-  border: 2px solid black;
+  margin-top: 30px;
 `;
 
-export const StyledProject = styled.div``;
+export const StyledProject = styled.div`
+  padding: 10px 0;
+`;
 
-export const StyledTitle = styled.h1``;
+export const StyledTitle = styled.h1`
+  text-align: center;
+  font-size: 40px;
+`;
 
-export const StyledProjectContainer = styled.div``;
+export const StyledProjectContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`;
