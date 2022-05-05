@@ -19,7 +19,15 @@ const Nav = ({ setIsOpen, topColor }) => {
     <StyledContainer topColor={topColor}>
       <Container>
         <StyledNav>
-          <StyledButton>TTM99</StyledButton>
+          <StyledButton
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            TTM99
+          </StyledButton>
           <StyledWebContainer>
             <StyledLinkContainer>
               <StyledItem>
@@ -78,7 +86,7 @@ const Nav = ({ setIsOpen, topColor }) => {
                 </StyledLinks>
               </StyledItem>
             </StyledLinkContainer>
-            <StyledDownload>
+            <StyledDownload href="www.github.com">
               <DownloadIcon />
               Download CV
             </StyledDownload>

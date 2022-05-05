@@ -20,7 +20,7 @@ const ProjectCard = ({ item }) => {
         <StyledInfo>{item.description}</StyledInfo>
         <StyledTags>
           {item.tags.map((tag) => (
-            <StyledTag>{tag}</StyledTag>
+            <StyledTag key={tag}>{tag}</StyledTag>
           ))}
         </StyledTags>
         <StyledLink href={item.githubLink}>

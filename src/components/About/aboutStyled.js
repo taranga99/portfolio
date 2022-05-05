@@ -4,11 +4,13 @@ import { IoSendSharp } from "react-icons/io5";
 
 export const StyledContainer = styled.div`
   height: 600px;
+  width: 100vw;
 `;
 
 export const StyledAbout = styled.div`
   display: flex;
   height: 600px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 `;
@@ -25,12 +27,13 @@ export const StyledImgContainer = styled.div`
 `;
 
 export const StyledInfoContainer = styled.div`
-  width: 600px;
+  width: 57.2%;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 40px;
+  border: 2px solid black;
 `;
 
 export const StyledTitle = styled.h1`
@@ -38,10 +41,11 @@ export const StyledTitle = styled.h1`
 `;
 
 export const StyledDescription = styled.p`
-  width: 550px;
+  width: 100%;
   font-size: 20px;
   letter-spacing: 1.5px;
   line-height: 40px;
+  border: 2px solid grey;
 `;
 
 export const StyledButton = styled(LinkS)`

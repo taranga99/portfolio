@@ -26,13 +26,24 @@ const home = () => {
             </StyledInfo>
             <StyledButtonContainer>
               <StyledButton
-                border={({ theme }) => theme.colors.secondary}
-                color={({ theme }) => theme.colors.secondary}
-                backgroundColor={({ theme }) => theme.colors.primary}
+                // border={({ theme }) => theme.colors.secondary}
+                // color={({ theme }) => theme.colors.secondary}
+                // backgroundcolor={({ theme }) => theme.colors.primary}
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                offset={-80}
               >
                 Contact Me <ContactIcon />
               </StyledButton>
-              <StyledButton>
+              <StyledButton
+                to="projects"
+                smooth={true}
+                duration={500}
+                spy={true}
+                offset={-80}
+              >
                 My Works <WorksIcon />
               </StyledButton>
             </StyledButtonContainer>

@@ -28,7 +28,13 @@ const About = () => {
               like gaming, playing football and trekking. Hit me up if you have
               some projects.
             </StyledDescription>
-            <StyledButton>
+            <StyledButton
+              to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
+            >
               Let's Talk <ContactIcon />
             </StyledButton>
           </StyledInfoContainer>

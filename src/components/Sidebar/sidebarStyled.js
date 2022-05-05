@@ -4,16 +4,17 @@ import { Link as LinkS } from "react-scroll";
 import { AiOutlineDownload } from "react-icons/ai";
 
 export const StyledContainer = styled.div`
-  height: 100vh;
-  width: 100%;
-  background-color: ${({ theme }) => theme.colors.primary};
-  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: ${({ theme }) => theme.colors.backgroundColor};
+  display: flex;
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: 0;
   right: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   flex-direction: column;
-  z-index: 999;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 `;
 
 export const StyledCloseContainer = styled.div`
@@ -30,7 +31,7 @@ export const CloseIcon = styled(AiOutlineClose)`
 `;
 
 export const StyledLinkContainer = styled.div`
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.backgroundColor};
   height: 70vh;
   display: flex;
   flex-direction: column;

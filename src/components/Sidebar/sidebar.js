@@ -18,21 +18,61 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       </StyledCloseContainer>
       <StyledLinkContainer>
         <StyledItem>
-          <StyledLinks to="home">Home</StyledLinks>
+          <StyledLinks
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            Home
+          </StyledLinks>
         </StyledItem>
         <StyledItem>
-          <StyledLinks to="about">About</StyledLinks>
+          <StyledLinks
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            About
+          </StyledLinks>
         </StyledItem>
         <StyledItem>
-          <StyledLinks to="skills">My Skills</StyledLinks>
+          <StyledLinks
+            to="skills"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            My Skills
+          </StyledLinks>
         </StyledItem>
         <StyledItem>
-          <StyledLinks to="projects">Projects</StyledLinks>
+          <StyledLinks
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            Projects
+          </StyledLinks>
         </StyledItem>
         <StyledItem>
-          <StyledLinks to="contact">Contact</StyledLinks>
+          <StyledLinks
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            Contact
+          </StyledLinks>
         </StyledItem>
-        <StyledDownload>
+        <StyledDownload href="www.github.com">
           <DownloadIcon />
           Download CV
         </StyledDownload>

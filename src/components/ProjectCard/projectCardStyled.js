@@ -1,10 +1,13 @@
 import styled from "styled-components";
 import { BsGithub } from "react-icons/bs";
 
-export const StyledContainer = styled.div``;
+export const StyledContainer = styled.div`
+  width: 48%;
+  border: 2px solid black;
+`;
 
 export const StyledProject = styled.div`
-  width: 500px;
+  width: 100%;
   height: 550px;
   border-radius: 10px;
   display: flex;

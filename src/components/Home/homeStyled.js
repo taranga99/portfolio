@@ -3,7 +3,9 @@ import { RiMailSendFill } from "react-icons/ri";
 import { VscProject } from "react-icons/vsc";
 import { Link as LinkS } from "react-scroll";
 
-export const StyledContainer = styled.div``;
+export const StyledContainer = styled.div`
+  width: 100vw;
+`;
 
 export const StyledHome = styled.div`
   height: 600px;

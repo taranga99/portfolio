@@ -4,11 +4,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineDownload } from "react-icons/ai";
 
 export const StyledContainer = styled.div`
-  width: 100%;
-  height: 80px;
+  width: 100vw;
   color: ${({ theme }) => theme.colors.secondary};
   background-color: ${({ topColor, theme }) =>
-    topColor ? "#086788" : "transparent"};
+    topColor ? theme.colors.backgroundColor : "transparent"};
 `;
 
 export const StyledNav = styled.div`
@@ -43,7 +42,7 @@ export const StyledWebContainer = styled.div`
   height: 80px;
   width: 73%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -52,7 +51,7 @@ export const StyledMobileContainer = styled.div`
   display: none;
   cursor: pointer;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: flex;
   }
 `;
