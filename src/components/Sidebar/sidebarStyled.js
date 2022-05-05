@@ -23,7 +23,8 @@ export const StyledCloseContainer = styled.div`
   justify-content: flex-end;
   align-items: center;
   align-self: center;
-  width: 90vw;
+  width: 100%;
+  padding: 0 24px;
 `;
 
 export const CloseIcon = styled(AiOutlineClose)`

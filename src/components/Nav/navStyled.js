@@ -4,7 +4,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineDownload } from "react-icons/ai";
 
 export const StyledContainer = styled.div`
-  width: 100vw;
   color: ${({ theme }) => theme.colors.secondary};
   background-color: ${({ topColor, theme }) =>
     topColor ? theme.colors.backgroundColor : "transparent"};
@@ -64,15 +63,21 @@ export const StyledLinkContainer = styled.div`
 
 export const StyledItem = styled.li`
   list-style: none;
-  width: 20%;
+  width: 30%;
+  height: 80px;
 `;
 
 export const StyledLinks = styled(LinkS)`
   cursor: pointer;
-  width: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &.active {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid ${({ theme }) => theme.colors.secondary};
+    font-weight: bold;
   }
 `;
 

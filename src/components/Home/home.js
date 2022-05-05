@@ -26,9 +26,9 @@ const home = () => {
             </StyledInfo>
             <StyledButtonContainer>
               <StyledButton
-                // border={({ theme }) => theme.colors.secondary}
-                // color={({ theme }) => theme.colors.secondary}
-                // backgroundcolor={({ theme }) => theme.colors.primary}
+                border="border"
+                color="color"
+                backgroundcolor="background"
                 to="contact"
                 smooth={true}
                 duration={500}

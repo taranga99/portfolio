@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+}
+
+
+
+export const StyledTitle = styled.h1`
+  font-size: 40px;
+
+  @media screen and (max-width: 910px) {
+    font-size: 35px;
+  }
+
+  @media screen and (max-width: 490px) {
+    font-size: 25px;
+  }
+`;
