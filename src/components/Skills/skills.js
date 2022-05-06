@@ -20,14 +20,14 @@ const Skills = () => {
           <StyledTitle>My Skills</StyledTitle>
           <StyledSkillsContainer>
             <StyledInfoContainer>
-              <StyledHeader>Frontend Skills</StyledHeader>
+              <StyledHeader>Frontend</StyledHeader>
               <StyledInfo>
                 As, I love working on the frontend, I am always looking for ways
                 to make websites simple but eye catching and give the user a
                 pleasent experience. I have developed several websites and have
                 learned new things from each and every one of them which has
-                helped to sharpen my frontend skills even more. Here are my
-                forntend skills that I have learned throught out my learning
+                helped me to sharpen my frontend skills even more. Here are my
+                forntend skills that I have learned though out my learning
                 phase:
               </StyledInfo>
               <StyledItemContainer>
@@ -38,18 +38,18 @@ const Skills = () => {
               </StyledItemContainer>
             </StyledInfoContainer>
             <StyledInfoContainer>
-              <StyledHeader>Backend Skills</StyledHeader>
+              <StyledHeader>Backend</StyledHeader>
               <StyledInfo>
                 Although, I am currently more focused on frontend part of the
                 web development I have took my time to learn some of the backend
-                skills too. I have done some small full stack projects too using
-                the backend skills that I have learned. Here are my backend
-                skills that I have learned throughout out my learning phase:
+                skills too. I have done some small full stack projects using the
+                backend skills that I have learned. Here are my backend skills
+                that I have learned through out my learning phase:
               </StyledInfo>
               <StyledItemContainer>
                 <StyledItem>Nodejs</StyledItem>
                 <StyledItem>Express</StyledItem>
-                <StyledItem>MongoDb</StyledItem>
+                <StyledItem>MongoDB</StyledItem>
               </StyledItemContainer>
             </StyledInfoContainer>
           </StyledSkillsContainer>

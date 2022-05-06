@@ -83,7 +83,8 @@ const Contact = () => {
                 <StyledInfo>
                   <EmailIcon />
                   <StyledItem>
-                    <StyledInfoTitle>Email:</StyledInfoTitle> email@email.com
+                    <StyledInfoTitle>Email:</StyledInfoTitle>
+                    tarangathapa@gmail.com
                   </StyledItem>
                 </StyledInfo>
                 <StyledInfo>
