@@ -100,7 +100,6 @@ const Contact = () => {
             </StyledContactInfo>
             <StyledContactForm ref={form} onSubmit={sendEmail}>
               <StyledContactContainer>
-                {/* <StyledLabel>Name</StyledLabel> */}
                 <StyledInput
                   name="name"
                   placeholder="Your Name"
@@ -112,7 +111,6 @@ const Contact = () => {
                 />
               </StyledContactContainer>
               <StyledContactContainer>
-                {/* <StyledLabel>Subject</StyledLabel> */}
                 <StyledInput
                   name="subject"
                   placeholder="Your Subject"
@@ -124,7 +122,6 @@ const Contact = () => {
                 />
               </StyledContactContainer>
               <StyledContactContainer>
-                {/* <StyledLabel>Email</StyledLabel> */}
                 <StyledInput
                   name="email"
                   placeholder="Your Email"
@@ -136,7 +133,6 @@ const Contact = () => {
                 />
               </StyledContactContainer>
               <StyledContactContainer>
-                {/* <StyledLabel>Message</StyledLabel> */}
                 <StyledTextArea
                   name="message"
                   maxLength={300}

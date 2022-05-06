@@ -4,7 +4,7 @@ import { VscProject } from "react-icons/vsc";
 import { Link as LinkS } from "react-scroll";
 
 export const StyledContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   position: relative;
   overflow: hidden;
 `;

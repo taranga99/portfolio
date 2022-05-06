@@ -24,6 +24,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             duration={500}
             spy={true}
             offset={-80}
+            onClick={() => setIsOpen(false)}
           >
             Home
           </StyledLinks>
@@ -35,6 +36,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             duration={500}
             spy={true}
             offset={-80}
+            onClick={() => setIsOpen(false)}
           >
             About
           </StyledLinks>
@@ -46,6 +48,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             duration={500}
             spy={true}
             offset={-80}
+            onClick={() => setIsOpen(false)}
           >
             My Skills
           </StyledLinks>
@@ -57,6 +60,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             duration={500}
             spy={true}
             offset={-80}
+            onClick={() => setIsOpen(false)}
           >
             Projects
           </StyledLinks>
@@ -68,6 +72,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             duration={500}
             spy={true}
             offset={-80}
+            onClick={() => setIsOpen(false)}
           >
             Contact
           </StyledLinks>

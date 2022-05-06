@@ -13,21 +13,18 @@ import {
   DownloadIcon,
 } from "./navStyled";
 import { Container } from "../Styles";
+import { animateScroll as scroll } from "react-scroll/modules";
 
 const Nav = ({ setIsOpen, topColor }) => {
+  const toggle = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <StyledContainer topColor={topColor}>
       <Container>
         <StyledNav>
-          <StyledButton
-            to="home"
-            smooth={true}
-            duration={500}
-            spy={true}
-            offset={-80}
-          >
-            TTM99
-          </StyledButton>
+          <StyledButton onClick={toggle}>TTM99</StyledButton>
           <StyledWebContainer>
             <StyledLinkContainer>
               <StyledItem>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link as LinkS } from "react-scroll";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineFilePdf } from "react-icons/ai";
 
 export const StyledContainer = styled.div`
   position: fixed;
@@ -52,7 +52,7 @@ export const StyledLinks = styled(LinkS)`
 `;
 
 export const StyledDownload = styled.div`
-  width: 150px;
+  width: 170px;
   border-radius: 10px;
   padding: 5px 10px;
   display: flex;
@@ -61,6 +61,10 @@ export const StyledDownload = styled.div`
   box-shadow: 0px 0px 7px grey;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-weight: bold;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.secondary};
+  font-size: 20px;
 
   &:hover {
     transform: scale(0.95);
@@ -68,6 +72,7 @@ export const StyledDownload = styled.div`
   }
 `;
 
-export const DownloadIcon = styled(AiOutlineDownload)`
+export const DownloadIcon = styled(AiOutlineFilePdf)`
   margin-right: 5px;
+  font-size: 20px;
 `;
