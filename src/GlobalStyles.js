@@ -9,4 +9,11 @@ export const GlobalStyles = createGlobalStyle`
         /* font-family: 'Montserrat', sans-serif; */
         /* font-family: 'Work Sans', sans-serif; */
     }
+
+    :root {
+  --toastify-toast-width: 400px;
+}
+
+        
+
 `;

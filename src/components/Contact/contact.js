@@ -29,6 +29,8 @@ import {
 } from "./contactStyled";
 import { Container } from "../Styles";
 import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -52,6 +54,20 @@ const Contact = () => {
         }
       );
     e.target.reset();
+
+    toast.success(
+      "Thank you for your message. I will get back to you as soon as possible.",
+      {
+        position: "bottom-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        draggablePercent: 60,
+      }
+    );
   };
 
   return (
@@ -148,6 +164,7 @@ const Contact = () => {
               >
                 Send Message <SendIcon />
               </StyledButtonInput>
+              <ToastContainer limit={2} draggablePercent={60} />
             </StyledContactForm>
           </StyledInfoContainer>
         </StyledContact>
