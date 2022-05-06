@@ -208,8 +208,7 @@ export const StyledSocialItem = styled.a`
   display: flex;
   align-items: center;
   border-radius: 50px;
-  box-shadow: 3px 3px 5px ${({ theme }) => theme.colors.secondary},
-    -1px -1px 1px ${({ theme }) => theme.colors.secondary};
+  box-shadow: 3px 3px 5px ${({ theme }) => theme.colors.secondary};
   cursor: pointer;
   justify-content: center;
   color: ${({ theme }) => theme.colors.primary};

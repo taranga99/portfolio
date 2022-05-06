@@ -31,6 +31,7 @@ import { Container } from "../Styles";
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+//https://stackoverflow.com/questions/49378743/toast-is-not-rendered-react-toastify-component
 
 const Contact = () => {
   const form = useRef();
@@ -96,19 +97,34 @@ const Contact = () => {
               <StyledSocialContainer>
                 <StyledContactHeader>Social Links:</StyledContactHeader>
                 <StyledLinkContainer>
-                  <StyledSocialItem>
+                  <StyledSocialItem
+                    href="https://www.facebook.com/taranga.thapa/"
+                    target="_blank"
+                  >
                     <FacebookIcon />
                   </StyledSocialItem>
-                  <StyledSocialItem>
+                  <StyledSocialItem
+                    href="https://www.instagram.com/tarangathapa/"
+                    target="_blank"
+                  >
                     <InstagramIcon />
                   </StyledSocialItem>
-                  <StyledSocialItem>
+                  <StyledSocialItem
+                    href="https://www.linkedin.com/in/taranga-thapa-251237209/"
+                    target="_blank"
+                  >
                     <LinkedinIcon />
                   </StyledSocialItem>
-                  <StyledSocialItem>
+                  <StyledSocialItem
+                    href="https://twitter.com/TarangaThapa"
+                    target="_blank"
+                  >
                     <TwitterIcon />
                   </StyledSocialItem>
-                  <StyledSocialItem>
+                  <StyledSocialItem
+                    href="https://github.com/TTM99"
+                    target="_blank"
+                  >
                     <GithubIcon />
                   </StyledSocialItem>
                 </StyledLinkContainer>

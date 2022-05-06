@@ -6,7 +6,7 @@ export const data = [
       "This is an combination of three mini projects. One is a api based project where user can search for countries and get covid information about it. Second is also an api based project where pagination is applied and user can control the amount of data rendered at a time. And third is a to do app where user can add, edit and delete their tasks and it is saved on localstorage.",
     img: "images/todoapp.png",
     tags: ["react", "styledcomponents", "localstorage", "sessionstorage"],
-    githubLink: "www.github.com",
+    githubLink: "https://github.com/TTM99/api-projects",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const data = [
       "This is a movie trailer app where an api has been used to show different movies to user. The user can search for different movies and watch trailer of those movies. It is also made responsive using media queries.",
     img: "images/movie.png",
     tags: ["react", "movie-api", "media-queries"],
-    githubLink: "www.github.com",
+    githubLink: "https://github.com/TTM99/Movie-Trailer-App",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const data = [
       "This is a full stack project that uses react,node,express and mongodb. Here the user can post their memories with the pictures and information about it, edit and also delete it. All the data of the user is saved on mongodb atlas.",
     img: "images/memories.png",
     tags: ["react", "node", "express", "mongodb-atlas"],
-    githubLink: "www.github.com",
+    githubLink: "https://github.com/TTM99/Memories-MERN-STACK",
   },
 
   {

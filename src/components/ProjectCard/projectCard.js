@@ -23,7 +23,7 @@ const ProjectCard = ({ item }) => {
             <StyledTag key={tag}>{tag}</StyledTag>
           ))}
         </StyledTags>
-        <StyledLink href={item.githubLink}>
+        <StyledLink href={item.githubLink} target="_blank">
           View code on github <GithubIcon />
         </StyledLink>
       </StyledProject>
