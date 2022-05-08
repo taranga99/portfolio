@@ -123,7 +123,7 @@ const Contact = () => {
                     <TwitterIcon />
                   </StyledSocialItem>
                   <StyledSocialItem
-                    href="https://github.com/TTM99"
+                    href="https://github.com/taranga99"
                     target="_blank"
                   >
                     <GithubIcon />
