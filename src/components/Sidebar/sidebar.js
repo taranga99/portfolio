@@ -9,6 +9,7 @@ import {
   StyledDownload,
   DownloadIcon,
 } from "./sidebarStyled";
+import Resume from "../../Resume/Taranga-Thapa-Resume.pdf";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
@@ -77,7 +78,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             Contact
           </StyledLinks>
         </StyledItem>
-        <StyledDownload href="www.github.com">
+        <StyledDownload download href={Resume}>
           <DownloadIcon />
           Download CV
         </StyledDownload>

@@ -5,7 +5,7 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 
 export const StyledContainer = styled.div`
   position: fixed;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: 999;
   background-color: ${({ theme }) => theme.colors.backgroundColor};
@@ -15,6 +15,7 @@ export const StyledContainer = styled.div`
   right: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   flex-direction: column;
   transition: 0.3s ease-in-out;
+  overflow: hidden;
 `;
 
 export const StyledCloseContainer = styled.div`
@@ -51,7 +52,7 @@ export const StyledLinks = styled(LinkS)`
   cursor: pointer;
 `;
 
-export const StyledDownload = styled.div`
+export const StyledDownload = styled.a`
   width: 170px;
   border-radius: 10px;
   padding: 5px 10px;

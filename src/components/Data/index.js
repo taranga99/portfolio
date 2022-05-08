@@ -31,7 +31,7 @@ export const data = [
     id: 4,
     title: "Portfolio",
     description:
-      "This is my personal portfolio which I have designed and developed using react, styled components and has been made responsive using media queries. A smooth scrolling animation has been added using react scroll library. ",
+      "This is my personal portfolio which I have designed and developed from scratch using react, styled components and has been made responsive using media queries. A smooth scrolling animation has been added using react scroll library. ",
     img: "images/portfolio.png",
     tags: ["react", "styled-components", "react-scroll", "media-queries"],
     githubLink: "https://github.com/taranga99/portfolio",

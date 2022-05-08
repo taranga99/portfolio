@@ -14,6 +14,7 @@ import {
 } from "./navStyled";
 import { Container } from "../Styles";
 import { animateScroll as scroll } from "react-scroll/modules";
+import Resume from "../../Resume/Taranga-Thapa-Resume.pdf";
 
 const Nav = ({ setIsOpen, topColor }) => {
   const toggle = () => {
@@ -83,7 +84,7 @@ const Nav = ({ setIsOpen, topColor }) => {
                 </StyledLinks>
               </StyledItem>
             </StyledLinkContainer>
-            <StyledDownload href="www.github.com">
+            <StyledDownload download href={Resume}>
               <DownloadIcon />
               Download CV
             </StyledDownload>
