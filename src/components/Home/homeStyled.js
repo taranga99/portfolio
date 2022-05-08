@@ -39,7 +39,7 @@ export const StyledInfoContainer = styled.div`
 export const StyledImgContainer = styled.div`
   height: 500px;
   width: 48.3%;
-  background-image: url("../../images/1.jpg");
+  background-image: url("images/1.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 10px;
