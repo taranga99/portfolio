@@ -25,7 +25,7 @@ const Nav = ({ setIsOpen, topColor }) => {
     <StyledContainer topColor={topColor}>
       <Container>
         <StyledNav>
-          <StyledButton onClick={toggle}>TTM99</StyledButton>
+          <StyledButton onClick={toggle}>{"< TTM99 / >"}</StyledButton>
           <StyledWebContainer>
             <StyledLinkContainer>
               <StyledItem>
