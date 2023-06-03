@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.83216d16.css",
-    "main.js": "/portfolio/static/js/main.6c187dde.js",
+    "main.js": "/portfolio/static/js/main.787b5109.js",
     "static/media/Taranga-Thapa-Resume.pdf": "/portfolio/static/media/Taranga-Thapa-Resume.cd5712d7d7c845af1681.pdf",
     "index.html": "/portfolio/index.html",
     "main.83216d16.css.map": "/portfolio/static/css/main.83216d16.css.map",
-    "main.6c187dde.js.map": "/portfolio/static/js/main.6c187dde.js.map"
+    "main.787b5109.js.map": "/portfolio/static/js/main.787b5109.js.map"
   },
   "entrypoints": [
     "static/css/main.83216d16.css",
-    "static/js/main.6c187dde.js"
+    "static/js/main.787b5109.js"
   ]
 }
